@@ -1,5 +1,15 @@
+import Hero from "./componets/Hero";
+import Highlights from "./componets/Highlights";
+import Navbar from "./componets/Navbar";
+
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <main className="bg-black">
+      <Navbar />
+      <Hero />
+      <Highlights />
+    </main>
+  );
 };
 
 export default App;
