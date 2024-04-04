@@ -4,6 +4,7 @@ import Navbar from "./componets/Navbar";
 import Model from "./componets/Model";
 import Features from "./componets/Features";
 import Footer from "./componets/Footer";
+import HowItWorks from "./componets/HowItWorks";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Highlights />
       <Model />
       <Features />
+      <HowItWorks />
       <Footer />
     </main>
   );
