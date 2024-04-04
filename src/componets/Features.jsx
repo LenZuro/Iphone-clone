@@ -60,6 +60,45 @@ const Features = () => {
                 <source src={exploreVideo} type="video/mp4" />
               </video>
             </div>
+            <div className="relative flex w-full flex-col">
+              <div className="feature-video-container">
+                <div className="overflow-hidden flex-1 h-[50vh]">
+                  <img
+                    src={explore1Img}
+                    alt="titanium"
+                    className="feature-video g_grow"
+                  />
+                </div>
+                <div className="overflow-hidden flex-1 h-[50vh]">
+                  <img
+                    src={explore2Img}
+                    alt="titanium 2"
+                    className="feature-text g_text"
+                  />
+                </div>
+              </div>
+              <div className="feature-text-container">
+                <div className="flex-1 flex-center">
+                  <p className="feature-text g_text">
+                    IPhone 15 Pro is{" "}
+                    <span className="text-white">
+                      the first IPhone to feature the aerospace-grade titanium
+                    </span>
+                    using the same alloy that is sent to space.
+                  </p>
+                </div>
+                <div className="flex-1 flex-center">
+                  <p className="feature-text g_text">
+                    Titanium has the best strength to weight ratio of any metal,
+                    making these our{" "}
+                    <span className="text-white">
+                      lightest Pro models ever.
+                    </span>
+                    You will notice the differnce the moment you pick it up.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
